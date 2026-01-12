@@ -1,0 +1,16 @@
+{
+  "name": "poll-api",
+  "version": "1.0.0",
+  "description": "polling system api",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node tests/test-api.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  },
+  "author": "",
+  "license": "ISC"
+}
